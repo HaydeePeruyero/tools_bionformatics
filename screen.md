@@ -40,6 +40,12 @@ Para regresar a la screen debemos utilizar el comando `screen -r temporal` y ret
 
 Nos desconectamos nuevamente de la screen con **Ctrl + a** y luego **d**.
 
+Si se desconecto y la screen aparece attached usamos:
+
+~~~
+screen -d -r nombre_screen
+~~~
+
 ### Listar las screen activas
 
 Un comando `screen -ls` nos permite saber las screen que tenmos activas y si estan conectas o desconectadas.
